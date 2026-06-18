@@ -148,6 +148,7 @@ h2 .g,h1 .g{color:var(--ink2)}
   color:#fff;background:rgba(13,13,13,.6);padding:6px 12px;border-radius:100px;backdrop-filter:blur(4px)}
 .demo-side{display:grid;gap:12px}
 .demo-side .figure img{height:128px;object-fit:cover}
+.split.rev .figure img{aspect-ratio:5/4;object-fit:cover}/* conteneur déployé : -20% de hauteur, rogne la marge blanche */
 
 /* TABLES */
 .tablewrap{margin-top:24px;border:1px solid var(--border);border-radius:18px;overflow:hidden;background:var(--white)}
@@ -383,7 +384,6 @@ tbody tr:last-child td{border-bottom:none}
           <span class="vcap">▶ Pliage / dépliage du conteneur — vidéo usine</span>
         </div>
       </div>
-      <p class="note rv d4"><b>Lecture vidéo&nbsp;:</b> ouvrir le fichier <span class="mono">index.html</span> dans un navigateur (la vidéo est dans le dossier <span class="mono">assets/</span>).</p>
     </div>
   </section>
 
