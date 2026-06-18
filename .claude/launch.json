@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "komo-ppt",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/tmp/komo_preview/_serve.py"],
+      "port": 4173
+    }
+  ]
+}
