@@ -4,6 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Habitat temporaire — Île de Madagascar · KOMO Digital</title>
+<meta name="description" content="Étude comparative habitat temporaire pour un site hors-réseau à Madagascar : Capsule T5 (clé en main) vs Conteneur pliable (à équiper). Par KOMO Digital.">
+<!-- Social preview (Open Graph + Twitter) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="KOMO Digital">
+<meta property="og:title" content="Habitat temporaire — Île de Madagascar · KOMO Digital">
+<meta property="og:description" content="Étude comparative : Capsule T5 (clé en main) vs Conteneur pliable (à équiper). Deux solutions pour un site hors-réseau.">
+<meta property="og:image" content="assets/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KOMO Digital — Capsule T5 vs Conteneur pliable">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Habitat temporaire — Île de Madagascar · KOMO Digital">
+<meta name="twitter:description" content="Capsule T5 (clé en main) vs Conteneur pliable (à équiper) — étude comparative KOMO Digital.">
+<meta name="twitter:image" content="assets/og-cover.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -175,6 +190,21 @@ tbody tr:last-child td{border-bottom:none}
 .pricehead .big.red{color:var(--red)}
 .pricehead .u{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--ink3);text-transform:uppercase}
 .priceflex{display:grid;grid-template-columns:1fr;gap:0}
+/* tables responsives — mobile : police + padding réduits, défilement horizontal de secours, jamais de coupe */
+@media (max-width:640px){
+  .tablewrap{overflow:hidden;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{font-size:12.5px}
+  th,td{padding:10px 10px}
+  thead th{font-size:9.5px;letter-spacing:.08em}
+  .cmp td:first-child{width:32%}
+  .col-h{flex-wrap:wrap;gap:2px 6px}
+  .comm .tg{display:none}
+  .num{font-size:12px}
+}
+@media (max-width:380px){
+  table{font-size:11.5px}
+  th,td{padding:9px 8px}
+}
 
 /* VERDICT */
 .verdict{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
