@@ -1,0 +1,8 @@
+# Vercel ne publie QUE le deck autonome + la vidéo.
+# Tout le reste (sources, devis fournisseurs, images originales, dossiers produits)
+# reste dans le dépôt mais N'EST PAS mis en ligne.
+/*
+!index.html
+!assets
+assets/*
+!assets/conteneur-video.mp4
